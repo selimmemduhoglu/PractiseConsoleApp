@@ -33,4 +33,4 @@ namespace DependencyInjection.Controllers
 // Singleton : Uygulama ayaða kalktýktan sonra nesne çaðrýldýðýnda nesne sadece uygulamanýn ömrü boyunca bir kere çalýþýr ve ondan sonra her nesne çaðrýldýðýnda ilk oluþturulan nesne kullanýlýr.
 // Scope : Uygulama ayaða kalktýktan sonra her request te nesne tekrardan üretilir
 /* Transient : Uygulama ayaða kalktýktan sonra nesne her requestte tekrardan üretilmesinden ziyada daha fazla olrak her çaðrýlmada tekrardan üretilir.
-Yani ayný requestin içinde çaðrýldýðýnda bile tekrardan nesneyi üretir fakat scope ta sadece request baþýna bir nesne üretileceði için ayný request içinde çaðrýldýðýnda bile sadece bir kere üretilecektir.   */
+Yani ayný requestin içinde çaðrýldýðýnda bile tekrardan nesneyi üretir  fakat scope ta sadece request baþýna bir nesne üretileceði için ayný request içinde çaðrýldýðýnda bile sadece bir kere üretilecektir.   */
