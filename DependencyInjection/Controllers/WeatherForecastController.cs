@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace DependencyInjection.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [EnableRateLimiting("Basic")] 
     public class WeatherForecastController : ControllerBase
     {
         private readonly INumGenerator _numGenerator;
@@ -20,7 +22,7 @@ namespace DependencyInjection.Controllers
             //NumGenerator _numGenerator = new();
             //int number =_numGenerator.GetRandomNumber();
             //int number = _numGenerator2.RandomValue;
-
+             
             //int random1 = _numGenerator2.RandomValue;
             int random1 = _numGenerator.RandomValue;
             int random2 = _numGenerator2.GetNumGeneratorRandomNumber();
