@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "Depe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimit", "RateLimit\RateLimit.csproj", "{837CE7B0-3D73-47EF-8C96-D7AA2D98C421}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutputCaching", "OutputCaching\OutputCaching.csproj", "{764B3B56-CBC4-4664-B902-B13B1D88C3F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{837CE7B0-3D73-47EF-8C96-D7AA2D98C421}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{837CE7B0-3D73-47EF-8C96-D7AA2D98C421}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{837CE7B0-3D73-47EF-8C96-D7AA2D98C421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{764B3B56-CBC4-4664-B902-B13B1D88C3F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764B3B56-CBC4-4664-B902-B13B1D88C3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764B3B56-CBC4-4664-B902-B13B1D88C3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764B3B56-CBC4-4664-B902-B13B1D88C3F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
